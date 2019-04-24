@@ -21,19 +21,22 @@ header {
 }
 
 #title {
+
   font-family: 'Georgia', Times, Times New Roman, serif;
   padding: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   color: white;
   background: #4aaaa5;
   position:absolute;
-  top:20px;
 }
 
 #about {
+  padding-left: 20px;
+  width: 59%;
+  position: relative;
   font-family: 'Georgia', Times, Times New Roman, serif;
-  padding-right: 60%;
-  margin-top: 100px;
+  left: 20%;
+  margin-top: 50px;
   margin-bottom: 0px;
   color: #4aaaa5;
   background: white;
@@ -43,12 +46,16 @@ header {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  border-bottom: 1px solid black;
+  padding-bottom: 30px;
   overflow: hidden;
   background-color: #ffffff;
 }
 
 li {
+  position: relative;
+  top: 20px;
+  right: 20%;
   float: right;
 }
 
@@ -65,9 +72,10 @@ li a:hover {
 }
 
 img {
+  position: relative;
   float: left;
   left: 20%;
-  padding: 20px;
+  padding: 20px 20px 20px 20px;
   width: 20%;
   height: 200px;
   background: white;
@@ -79,7 +87,28 @@ p {
   color: #777777;
   font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   background-color: #ffffff;
-  width: 400px;
+  width: 30%;
+}
+
+#p1 {
+  position: relative;
+  left: 20%;
+  padding: 10px;
+  margin-right: 50%;
+}
+
+#p2 {
+  position: relative;
+  left: 20%;
+  padding: 10px 0px;
+  margin-right: 50%;
+}
+
+#p3 {
+  position: relative;
+  left: 20%;
+  padding: 10px 0px;
+  margin-right: 50%;
 }
 
 #page-container {
@@ -92,7 +121,7 @@ p {
   }
 
   #footer {
-    border-top: 5px solid black;
+    border-top: 5px solid #4aaaa5;
     background-color: #666666;
     padding-top: 10px;
     padding-left: 50%;
